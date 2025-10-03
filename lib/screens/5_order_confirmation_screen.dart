@@ -1,5 +1,3 @@
-// lib/screens/5_order_confirmation_screen.dart
-
 import 'package:flutter/material.dart';
 
 class OrderConfirmationScreen extends StatelessWidget {
@@ -33,8 +31,6 @@ class OrderConfirmationScreen extends StatelessWidget {
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
-                  // Так как мы использовали pushAndRemoveUntil, pop() просто закроет этот экран
-                  // и покажет ProductListScreen, который остался в стеке.
                   Navigator.pop(context);
                 },
                 child: const Text('Вернуться в магазин'),

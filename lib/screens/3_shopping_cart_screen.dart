@@ -1,5 +1,3 @@
-// lib/screens/3_shopping_cart_screen.dart
-
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 import '4_checkout_screen.dart';

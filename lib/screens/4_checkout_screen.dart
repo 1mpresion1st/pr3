@@ -1,5 +1,3 @@
-// lib/screens/4_checkout_screen.dart
-
 import 'package:flutter/material.dart';
 import '5_order_confirmation_screen.dart';
 

@@ -1,5 +1,3 @@
-// lib/screens/1_product_list_screen.dart
-
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 import '2_product_detail_screen.dart';
